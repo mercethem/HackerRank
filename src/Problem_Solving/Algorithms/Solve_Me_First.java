@@ -1,4 +1,4 @@
-package Problem_Solving;
+package Problem_Solving.Algorithms;
 
 import java.io.*;
 import java.util.*;
