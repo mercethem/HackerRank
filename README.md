@@ -1,2 +1,2 @@
 # HackerRank Solutions
-Problem Solving and Java folders inside at src folder.
+There are two folders that Problem Solving and Java folders in src.
