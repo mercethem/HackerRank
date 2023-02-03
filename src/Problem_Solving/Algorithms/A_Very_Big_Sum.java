@@ -1,10 +1,10 @@
 package Problem_Solving.Algorithms;
 
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class A_Very_Big_Sum {
-
 
     class Result {
 
@@ -16,13 +16,12 @@ public class A_Very_Big_Sum {
          */
 
         public static long aVeryBigSum(List<Long> ar) {
-            long sum=0;
-            for(int i=0; i<ar.size(); i++){
-                sum+=ar.get(i);
+            long sum = 0;
+            for (int i = 0; i < ar.size(); i++) {
+                sum += ar.get(i);
             }
             return sum;
         }
-
     }
 
     public class Solution {
@@ -50,5 +49,4 @@ public class A_Very_Big_Sum {
             bufferedWriter.close();
         }
     }
-
 }
